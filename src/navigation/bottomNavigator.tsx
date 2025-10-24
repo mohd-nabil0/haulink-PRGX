@@ -12,7 +12,8 @@ const BottomTabs = createBottomTabNavigator({
       options: {
         headerShown: false,
         tabBarIcon: ({ color }) => (
-          <IconSymbol size={28} name="work" color={color} />
+          //@ts-ignore
+          <IconSymbol size={28} name="briefcase" color={color} />
         ),
       },
     },
