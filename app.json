@@ -17,7 +17,18 @@
         "foregroundImage": "src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.HauLink"
+      "package": "com.anonymous.HauLink",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION"
+      ],
+      "foregroundService": {
+        "notificationTitle": "Tracking your location",
+        "notificationBody": "Location tracking active in the background."
+      }
     },
     "web": {
       "favicon": "src/assets/images/favicon.png"

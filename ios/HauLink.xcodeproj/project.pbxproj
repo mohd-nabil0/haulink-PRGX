@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0039707C45BCE1364807E6E1 /* libPods-HauLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 637E1D44A775C296D8B964FB /* libPods-HauLink.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1B00421D72AF139CC3E9DDD7 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB592EC751F123B1C1E9CE01 /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		65202C986EA90FC43857C5AA /* libPods-HauLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB783E634B9878D0586E26CD /* libPods-HauLink.a */; };
-		710C59F4E788F07AF4E46AD5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8C679DC0253A16C584D9FB0E /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		DFF896C91823CCDE7CAD1BBF /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042868651F4A2537B5A0FE1C /* ExpoModulesProvider.swift */; };
+		EE0707C32E88CE50B5040194 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A488419C00882FF1C3C0B324 /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		042868651F4A2537B5A0FE1C /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-HauLink/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		10B13A71FDEA4F6D1479E4FF /* Pods-HauLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HauLink.debug.xcconfig"; path = "Target Support Files/Pods-HauLink/Pods-HauLink.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HauLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HauLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HauLink/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HauLink/Info.plist; sourceTree = "<group>"; };
-		6A939248643DE67AC53ED261 /* Pods-HauLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HauLink.release.xcconfig"; path = "Target Support Files/Pods-HauLink/Pods-HauLink.release.xcconfig"; sourceTree = "<group>"; };
-		8C679DC0253A16C584D9FB0E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HauLink/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		637E1D44A775C296D8B964FB /* libPods-HauLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HauLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A488419C00882FF1C3C0B324 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HauLink/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = HauLink/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		D7BA61CCED9F4EA7505ADCDC /* Pods-HauLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HauLink.debug.xcconfig"; path = "Target Support Files/Pods-HauLink/Pods-HauLink.debug.xcconfig"; sourceTree = "<group>"; };
-		EB783E634B9878D0586E26CD /* libPods-HauLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HauLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F6C79400AAC54AFBFD2853 /* Pods-HauLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HauLink.release.xcconfig"; path = "Target Support Files/Pods-HauLink/Pods-HauLink.release.xcconfig"; sourceTree = "<group>"; };
+		DB592EC751F123B1C1E9CE01 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-HauLink/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = HauLink/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* HauLink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "HauLink-Bridging-Header.h"; path = "HauLink/HauLink-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65202C986EA90FC43857C5AA /* libPods-HauLink.a in Frameworks */,
+				0039707C45BCE1364807E6E1 /* libPods-HauLink.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				8C679DC0253A16C584D9FB0E /* PrivacyInfo.xcprivacy */,
+				A488419C00882FF1C3C0B324 /* PrivacyInfo.xcprivacy */,
 			);
 			name = HauLink;
 			sourceTree = "<group>";
@@ -62,27 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EB783E634B9878D0586E26CD /* libPods-HauLink.a */,
+				637E1D44A775C296D8B964FB /* libPods-HauLink.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		38942804B7CB68C7760ECBCE /* Pods */ = {
+		4D6F98960C7202DFB0C3CAD8 /* HauLink */ = {
 			isa = PBXGroup;
 			children = (
-				D7BA61CCED9F4EA7505ADCDC /* Pods-HauLink.debug.xcconfig */,
-				6A939248643DE67AC53ED261 /* Pods-HauLink.release.xcconfig */,
+				DB592EC751F123B1C1E9CE01 /* ExpoModulesProvider.swift */,
 			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		7C0B0B7FF06419222CF15AF8 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				FB6F7A6E18E4B5075A13E659 /* HauLink */,
-			);
-			name = ExpoModulesProviders;
+			name = HauLink;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -99,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				38942804B7CB68C7760ECBCE /* Pods */,
-				7C0B0B7FF06419222CF15AF8 /* ExpoModulesProviders */,
+				E8828F11C02A0F71D2B555FD /* Pods */,
+				E73C9D99962AC232D1E28CDC /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -124,12 +114,22 @@
 			path = HauLink/Supporting;
 			sourceTree = "<group>";
 		};
-		FB6F7A6E18E4B5075A13E659 /* HauLink */ = {
+		E73C9D99962AC232D1E28CDC /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				042868651F4A2537B5A0FE1C /* ExpoModulesProvider.swift */,
+				4D6F98960C7202DFB0C3CAD8 /* HauLink */,
 			);
-			name = HauLink;
+			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		E8828F11C02A0F71D2B555FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10B13A71FDEA4F6D1479E4FF /* Pods-HauLink.debug.xcconfig */,
+				C8F6C79400AAC54AFBFD2853 /* Pods-HauLink.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HauLink" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				72014FEB98F4600C204F4108 /* [Expo] Configure project */,
+				3A1F639BCB7BA92310B408BC /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				EBFF59DB9A24B83F7D7918BD /* [CP] Embed Pods Frameworks */,
+				3007B075FA4049B02AF9CF31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				710C59F4E788F07AF4E46AD5 /* PrivacyInfo.xcprivacy in Resources */,
+				EE0707C32E88CE50B5040194 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +242,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		72014FEB98F4600C204F4108 /* [Expo] Configure project */ = {
+		3007B075FA4049B02AF9CF31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HauLink/Pods-HauLink-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/React-Core-prebuilt/React.framework/React",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeDependencies/ReactNativeDependencies.framework/ReactNativeDependencies",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDependencies.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HauLink/Pods-HauLink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1F639BCB7BA92310B408BC /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -275,7 +297,9 @@
 				"${PODS_ROOT}/Target Support Files/Pods-HauLink/Pods-HauLink-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXTaskManager/ExpoTaskManager_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage_resources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle",
@@ -284,7 +308,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoTaskManager_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RNCAsyncStorage_resources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDWebImage.bundle",
@@ -292,28 +318,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HauLink/Pods-HauLink-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBFF59DB9A24B83F7D7918BD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HauLink/Pods-HauLink-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/React-Core-prebuilt/React.framework/React",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeDependencies/ReactNativeDependencies.framework/ReactNativeDependencies",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDependencies.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HauLink/Pods-HauLink-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -324,7 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				DFF896C91823CCDE7CAD1BBF /* ExpoModulesProvider.swift in Sources */,
+				1B00421D72AF139CC3E9DDD7 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +337,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7BA61CCED9F4EA7505ADCDC /* Pods-HauLink.debug.xcconfig */;
+			baseConfigurationReference = 10B13A71FDEA4F6D1479E4FF /* Pods-HauLink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -369,7 +373,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A939248643DE67AC53ED261 /* Pods-HauLink.release.xcconfig */;
+			baseConfigurationReference = C8F6C79400AAC54AFBFD2853 /* Pods-HauLink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
