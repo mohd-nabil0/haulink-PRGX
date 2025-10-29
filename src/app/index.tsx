@@ -1,9 +1,9 @@
 // app/index.tsx
+import awsConfig from "@/aws/aws-exports";
 import { Amplify } from "aws-amplify";
 import { useRouter } from "expo-router";
 import { useEffect } from "react";
 import { ActivityIndicator, View } from "react-native";
-import awsConfig from "../src/aws/aws-exports";
 
 Amplify.configure({ ...awsConfig });
 
