@@ -42,7 +42,8 @@
           "locationAlwaysAndWhenInUsePermission": "Allow HauLink to access your location even when the app is closed or not in use.",
           "locationWhenInUsePermission": "Allow HauLink to access your location while you are using the app."
         }
-      ]
+      ],
+      ["expo-font", { "fonts": ["src/assets/fonts/Product-Sans-Regular.ttf"] }]
     ]
   }
 }

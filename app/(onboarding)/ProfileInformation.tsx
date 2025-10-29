@@ -1,8 +1,10 @@
 import { useRouter } from "expo-router";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import { Button, useTheme } from "react-native-paper";
 
 export default function ProfileInformation() {
   const router = useRouter();
+  const theme = useTheme();
 
   const navigateTo = () => {
     router.navigate("/VerifyIdentity");
@@ -11,7 +13,9 @@ export default function ProfileInformation() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Profile Information Screen</Text>
-      <Button title="Next" onPress={navigateTo} />
+      <Button onPress={navigateTo} theme={theme} mode="contained">
+        Next
+      </Button>
     </View>
   );
 }

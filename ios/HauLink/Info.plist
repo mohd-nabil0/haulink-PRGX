@@ -46,13 +46,21 @@
       <true/>
     </dict>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your location</string>
+    <string>Allow HauLink to access your location even when the app is closed or not in use.</string>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>Allow $(PRODUCT_NAME) to access your location</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your location</string>
+    <string>Allow HauLink to access your location while you are using the app.</string>
+    <key>NSUserActivityTypes</key>
+    <array>
+      <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>
+    </array>
     <key>RCTNewArchEnabled</key>
     <true/>
+    <key>UIAppFonts</key>
+    <array>
+      <string>Product-Sans-Regular.ttf</string>
+    </array>
     <key>UIBackgroundModes</key>
     <array>
       <string>fetch</string>

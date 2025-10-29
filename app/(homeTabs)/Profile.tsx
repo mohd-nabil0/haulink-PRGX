@@ -1,17 +1,20 @@
 import { router } from "expo-router";
-import { Button, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
+import { Button, useTheme } from "react-native-paper";
 
 export default function Profile() {
+  const theme = useTheme();
 
   const handleLogout = () => {
-    router.replace('/ProfileInformation');
-
+    router.replace("/ProfileInformation");
   };
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Profile Tab</Text>
-      <Button title="Logout"  onPress={handleLogout}/>
+      <Button onPress={handleLogout} theme={theme} mode="contained-tonal">
+        Logout
+      </Button>
     </View>
   );
 }
