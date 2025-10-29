@@ -4,11 +4,11 @@ export default function OnboardingRootLayout() {
   return (
     <Stack>
       <Stack.Screen
-        name="ProfileInformation"
+        name="profile-information"
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="VerifyIdentity" options={{ headerShown: false }} />
-      <Stack.Screen name="DrivingLicense" options={{ headerShown: true }} />
+      <Stack.Screen name="verify-identity" options={{ headerShown: false }} />
+      <Stack.Screen name="driving-license" options={{ headerShown: true }} />
     </Stack>
   );
 }

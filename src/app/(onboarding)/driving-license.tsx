@@ -11,7 +11,7 @@ export default function DrivingLicense() {
   };
 
   const navigateToHome = () => {
-    router.replace("/(homeTabs)/Jobs");
+    router.replace("/(home-tabs)/jobs");
   };
 
   return (

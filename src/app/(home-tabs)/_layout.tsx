@@ -5,14 +5,14 @@ export default function HomeTabLayout() {
   return (
     <Tabs>
       <Tabs.Screen
-        name="Jobs"
+        name="jobs"
         options={{
           title: 'Jobs',
           tabBarIcon: ({ color }) => <MaterialIcons size={28} name="work" color={color} />,
         }}
       />
        <Tabs.Screen
-        name="Profile"
+        name="profile"
         options={{
           title: 'Profile',
           tabBarIcon: ({ color }) => <MaterialIcons size={28} name="person" color={color} />,

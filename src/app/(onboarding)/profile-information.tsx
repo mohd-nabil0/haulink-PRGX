@@ -7,7 +7,7 @@ export default function ProfileInformation() {
   const theme = useTheme();
 
   const navigateTo = () => {
-    router.navigate("/VerifyIdentity");
+    router.navigate("/verify-identity");
   };
 
   return (

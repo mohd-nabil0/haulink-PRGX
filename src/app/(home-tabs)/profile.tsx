@@ -6,7 +6,7 @@ export default function Profile() {
   const theme = useTheme();
 
   const handleLogout = () => {
-    router.replace("/ProfileInformation");
+    router.replace("/profile-information");
   };
 
   return (

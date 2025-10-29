@@ -13,7 +13,7 @@ export default function ScreenA() {
   useEffect(() => {
     // Any initial setup can be done here
     setTimeout(() => {
-      router.replace("/ProfileInformation");
+      router.replace("/profile-information");
     }, 300);
   }, []);
 

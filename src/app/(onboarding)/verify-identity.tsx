@@ -7,7 +7,7 @@ export default function VerifyIdentity() {
   const theme = useTheme();
 
   const navigateTo = () => {
-    router.navigate("/DrivingLicense");
+    router.navigate("/driving-license");
   };
 
   return (
