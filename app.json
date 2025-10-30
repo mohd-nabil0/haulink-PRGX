@@ -43,7 +43,16 @@
           "locationWhenInUsePermission": "Allow HauLink to access your location while you are using the app."
         }
       ],
-      ["expo-font", { "fonts": ["src/assets/fonts/Product-Sans-Regular.ttf"] }]
+      ["expo-font", { "fonts": ["src/assets/fonts/Product-Sans-Regular.ttf"] }],
+      [
+        "expo-localization",
+        {
+          "supportedLocales": {
+            "ios": ["en"],
+            "android": ["en"]
+          }
+        }
+      ]
     ]
   }
 }

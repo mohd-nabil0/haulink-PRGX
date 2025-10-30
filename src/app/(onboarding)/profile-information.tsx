@@ -1,3 +1,4 @@
+import { useTranslation } from "@/localization/translations/translation-context";
 import { useRouter } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 import { Button, useTheme } from "react-native-paper";
@@ -5,6 +6,7 @@ import { Button, useTheme } from "react-native-paper";
 export default function ProfileInformation() {
   const router = useRouter();
   const theme = useTheme();
+  const { t } = useTranslation();
 
   const navigateTo = () => {
     router.navigate("/verify-identity");
@@ -12,6 +14,7 @@ export default function ProfileInformation() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>{t("welcome")}</Text>
       <Text style={styles.title}>Profile Information Screen</Text>
       <Button onPress={navigateTo} theme={theme} mode="contained">
         Next
