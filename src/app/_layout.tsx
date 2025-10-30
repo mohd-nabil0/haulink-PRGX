@@ -1,4 +1,4 @@
-import { TranslationProvider } from "@/localization/translations/translation-context";
+import { TranslationProvider } from "@/localization/translation-context";
 import { AppThemeLight } from "@/theme";
 import { Stack } from "expo-router";
 import { PaperProvider } from "react-native-paper";

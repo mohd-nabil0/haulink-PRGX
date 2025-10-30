@@ -1,4 +1,4 @@
-import { useTranslation } from "@/localization/translations/translation-context";
+import { useTranslation } from "@/localization/hooks/useTranslation";
 import { useRouter } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 import { Button, useTheme } from "react-native-paper";
