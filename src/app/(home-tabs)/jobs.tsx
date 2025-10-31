@@ -1,6 +1,9 @@
+import useAuthState from "@/aws/auth/hooks/useAuthState";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function Jobs() {
+
+  const authState = useAuthState();
 
   return (
     <View style={styles.container}>

@@ -1,3 +1,25 @@
 {
-  "welcome": "Welcome"
+  "welcome": "Welcome",
+  "login": "Login",
+  "logout": "Logout",
+  "username": "Username",
+  "password": "Password",
+  "forgot_password_Q": "Forgot Password?",
+  "not_register_sign_up_now": "Not Registered? Sign Up Now",
+  "phone_number": "Phone Number",
+  "by_continuing_you_accept_to_our_policy_terms": "By continuing, you accept our Privacy Policy & Terms of services",
+  "sign_up": "Sign Up",
+  "first_name": "First Name",
+  "last_name": "Last Name",
+  "confirm_password": "Confirm Password",
+  "choose_role": "Choose Role",
+  "hauler": "Hauler",
+  "contractor": "Contractor",
+  "confirm": "Confirm",
+  "enter_your_verification_code": "Enter your verification code",
+  "enter_register_number_to_reset_password": "Enter your registered phone number to reset your password",
+  "send_otp": "Send OTP",
+  "code": "Code",
+  "new_password": "New Password",
+  "update_password": "Update Password"
 }
