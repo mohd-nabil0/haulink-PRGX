@@ -23,13 +23,13 @@ import { MD3Typescale } from "react-native-paper/lib/typescript/types";
 
 export const fonts: MD3Typescale = {
   default: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontWeight: "400",
     letterSpacing: 0,
   },
 
   displayLarge: {
-    fontFamily: "Product-Sans-Bold",
+    fontFamily: "Roboto-Bold",
     fontSize: 26.25,
     lineHeight: 32,
     letterSpacing: 0,
@@ -37,7 +37,7 @@ export const fonts: MD3Typescale = {
   },
 
   displayMedium: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 21,
     lineHeight: 28,
     letterSpacing: 0,
@@ -45,7 +45,7 @@ export const fonts: MD3Typescale = {
   },
 
   displaySmall: {
-    fontFamily: "Product-Sans-Bold",
+    fontFamily: "Roboto-Bold",
     fontSize: 18,
     lineHeight: 24,
     letterSpacing: 0,
@@ -53,7 +53,7 @@ export const fonts: MD3Typescale = {
   },
 
   headlineLarge: {
-    fontFamily: "Product-Sans-Bold",
+    fontFamily: "Roboto-Bold",
     fontSize: 17,
     lineHeight: 22,
     letterSpacing: 0,
@@ -61,7 +61,7 @@ export const fonts: MD3Typescale = {
   },
 
   headlineMedium: {
-    fontFamily: "Product-Sans-Bold",
+    fontFamily: "Roboto-Bold",
     fontSize: 15,
     lineHeight: 20,
     letterSpacing: 0,
@@ -69,15 +69,15 @@ export const fonts: MD3Typescale = {
   },
 
   headlineSmall: {
-    fontFamily: "Product-Sans-SemiBold",
+    fontFamily: "Roboto-Medium",
     fontSize: 15,
     lineHeight: 20,
     letterSpacing: 0,
-    fontWeight: "600",
+    fontWeight: "500",
   },
 
   titleLarge: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 15,
     lineHeight: 20,
     letterSpacing: 0,
@@ -85,7 +85,7 @@ export const fonts: MD3Typescale = {
   },
 
   titleMedium: {
-    fontFamily: "Product-Sans-Bold",
+    fontFamily: "Roboto-Bold",
     fontSize: 14,
     lineHeight: 20,
     letterSpacing: 0.15,
@@ -93,7 +93,7 @@ export const fonts: MD3Typescale = {
   },
 
   titleSmall: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 14,
     lineHeight: 20,
     letterSpacing: 0.1,
@@ -101,7 +101,7 @@ export const fonts: MD3Typescale = {
   },
 
   bodyLarge: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 15,
     lineHeight: 20,
     letterSpacing: 0.25,
@@ -109,7 +109,7 @@ export const fonts: MD3Typescale = {
   },
 
   bodyMedium: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 14,
     lineHeight: 20,
     letterSpacing: 0.25,
@@ -117,7 +117,7 @@ export const fonts: MD3Typescale = {
   },
 
   bodySmall: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 13,
     lineHeight: 18,
     letterSpacing: 0.4,
@@ -125,7 +125,7 @@ export const fonts: MD3Typescale = {
   },
 
   labelLarge: {
-    fontFamily: "Product-Sans-Bold",
+    fontFamily: "Roboto-Bold",
     fontSize: 14,
     lineHeight: 20,
     letterSpacing: 0.1,
@@ -133,7 +133,7 @@ export const fonts: MD3Typescale = {
   },
 
   labelMedium: {
-    fontFamily: "Product-Sans-Medium",
+    fontFamily: "Roboto-Medium",
     fontSize: 12,
     lineHeight: 16,
     letterSpacing: 0.5,
@@ -141,11 +141,10 @@ export const fonts: MD3Typescale = {
   },
 
   labelSmall: {
-    fontFamily: "Product-Sans-Regular",
+    fontFamily: "Roboto-Regular",
     fontSize: 12,
     lineHeight: 16,
     letterSpacing: 0.5,
     fontWeight: "400",
   },
 };
-
